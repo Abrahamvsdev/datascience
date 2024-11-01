@@ -10,7 +10,7 @@ pd.set_option("display.max_columns", None)
 pd.set_option("display.max_colwidth",None)
 
 
-# pilla el dataset y usa la clumna de cohete para llamar a la API y añadir los datos a la lista
+# pilla el dataset y usa la columna de cohete para llamar a la API y añadir los datos a la lista
 def getBoosterVersion(data):
     for x in data['rocket']:
         if x:
